@@ -15,7 +15,7 @@ a:link{
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
-    min-height: 180px;
+    min-height: 130px;
 
 }
 
@@ -247,12 +247,13 @@ h3.menu-item-tile{
     font-size: .9em;
     font-style: italic;
 }
-}
+
 /* End single category page */
 
 /** Large devices **/
 @media (min-width: 1200px){
     /*Home page*/
+
     .jumbotron{
         margin-top: 30px;
         padding: 0;
@@ -275,8 +276,6 @@ h3.menu-item-tile{
         min-height: 400px;
         background: url("../image/cafeView-medium.jpg") no-repeat center center;
     }
-    
-
 }
 
 /** Small devices **/
@@ -297,7 +296,6 @@ h3.menu-item-tile{
         padding-top: 10px;
         font-size: 4vw;
     }
-
 }
 
 /** Extra small devices **/
@@ -318,6 +316,9 @@ h3.menu-item-tile{
         margin-right: 2px;
     }
 
+    body{
+        text-align: center;
+    }
     #call-button > a {
         font-size: 1.5em;
         margin: 0 20px;
